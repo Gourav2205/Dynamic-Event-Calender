@@ -51,14 +51,5 @@ Developer By: [Gourav Biswas](https://github.com/Gourav2205)
 - **Data Storage**: localStorage
 - **Deployment**: Vercel
 
-## 🚀 Getting Started
 
-### Prerequisites
-
-- Node.js (v14.0.0 or later)
-- npm (v6.0.0 or later)
-
-### Installation
-
-1. Clone the repository:
 
