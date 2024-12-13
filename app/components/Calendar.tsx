@@ -32,11 +32,11 @@ const Calendar = () => {
         return Array.from({ length: days }, (_, i) => new Date(year, month, i + 1))
     }
 
-    const addDays = (date: Date, days: number) => {
-        const result = new Date(date)
-        result.setDate(result.getDate() + days)
-        return result
-    }
+    // const addDays = (date: Date, days: number) => {
+    //     const result = new Date(date)
+    //     result.setDate(result.getDate() + days)
+    //     return result
+    // }
 
     const startDay = new Date(currentDate.getFullYear(), currentDate.getMonth(), 1).getDay()
     const daysInMonth = getDaysInMonth(currentDate)
