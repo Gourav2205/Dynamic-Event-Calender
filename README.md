@@ -4,6 +4,8 @@
 
 This Dynamic Event Calendar Application is a modern, interactive web application built with Next.js and shadcn/ui. It provides users with a sleek interface to manage and view events, offering a range of features from basic event management to advanced filtering and exporting capabilities.
 
+Developer By: [Gourav Biswas](https://github.com/Gourav2205)
+
 ## ✨ Features
 
 1. **🗓️ Interactive Calendar View**
