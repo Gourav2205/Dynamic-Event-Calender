@@ -36,14 +36,9 @@ Developer By: [Gourav Biswas](https://github.com/Gourav2205)
    - Clean and modern UI using shadcn/ui components
    - Fully responsive layout for various screen sizes
 
-6. **🚀 Advanced Features** (Optional implementations)
-   - Drag-and-drop functionality for event rescheduling
-   - Color coding for different event types (e.g., work, personal, others)
-   - Export event list for a specific month as JSON or CSV
-
 ## 🛠️ Tech Stack
 
-- **Framework**: Next.js 13+ (App Router)
+- **Framework**: Next.js 15+ (App Router)
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
 - **UI Components**: shadcn/ui
