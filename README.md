@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dynamic Event Calendar Application
+
+## Overview
+
+This Dynamic Event Calendar Application is a modern, interactive web application built with Next.js and shadcn/ui. It provides users with a sleek interface to manage and view events, offering a range of features from basic event management to advanced filtering and exporting capabilities.
+
+## Features
+
+1. **Interactive Calendar View**
+   - Monthly grid display with proper day alignment
+   - Navigate between months using "Previous" and "Next" buttons
+   - Visual distinction for weekends and weekdays
+   - Highlight for current day and selected day
+
+2. **Comprehensive Event Management**
+   - Add new events by clicking on a specific day
+   - Edit existing events
+   - Delete unwanted events
+   - Event details include:
+     - Event name
+     - Start time and end time
+     - Optional description
+
+3. **Event Visualization**
+   - View all events for a selected day in a modal
+   - "View All Events" feature with a list of all events
+   - Event filtering capability by keyword
+
+4. **Data Persistence**
+   - Utilizes localStorage for event data persistence between page refreshes
+
+5. **Responsive Design**
+   - Clean and modern UI using shadcn/ui components
+   - Fully responsive layout for various screen sizes
+
+6. **Advanced Features** (Optional implementations)
+   - Drag-and-drop functionality for event rescheduling
+   - Color coding for different event types (e.g., work, personal, others)
+   - Export event list for a specific month as JSON or CSV
+
+## Tech Stack
+
+- **Framework**: Next.js 13+ (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn/ui
+- **State Management**: React Hooks
+- **Data Storage**: localStorage
+- **Deployment**: Vercel
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js (v14.0.0 or later)
+- npm (v6.0.0 or later)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone the repository:
